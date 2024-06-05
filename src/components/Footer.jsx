@@ -14,16 +14,16 @@ const Footer = () => {
         </div>
         <div className="flex justify-center sm:justify-start mt-4 sm:mt-0 gap-x-4">
           <a href="https://github.com/sptres" aria-label="GitHub">
-            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <FaGithubSquare className="h-8 w-8 text-orange-400 hover:text-black duration-300" />
           </a>
           <a
             href="https://www.linkedin.com/in/seunghyukpark/"
             aria-label="LinkedIn"
           >
-            <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <FaLinkedin className="h-8 w-8 text-orange-400 hover:text-black duration-300" />
           </a>
           <a href="https://x.com/SPBuildThings" aria-label="Twitter">
-            <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <FaTwitterSquare className="h-8 w-8 text-orange-400 hover:text-black duration-300" />
           </a>
         </div>
       </div>
