@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-orange-100">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold">
-          Web<span className="text-orange-600">Dev</span>
+          SP<span className="text-orange-600">Code</span>
         </h2>
         <div className="flex gap-x-3">
           {links.map((link) => {
