@@ -1,4 +1,4 @@
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
@@ -14,10 +14,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
         <p className="mt-4 text-slate-700 leading-loose">{text}</p>
         <div className="mt-4 flex gap-x-4">
           <a href={url}>
-            <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <TbWorldWww className="h-8 w-8 text-orange-400 hover:text-black duration-300" />
           </a>
           <a href={github}>
-            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <FaGithubSquare className="h-8 w-8 text-orange-400 hover:text-black duration-300" />
           </a>
         </div>
       </div>
