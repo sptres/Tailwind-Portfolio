@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import ThemeToggle from './components/ThemeToggle';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Projects />
       <Footer />
+      <ThemeToggle />
     </>
   );
 };

@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --primary-color: #ee9759; /* Orange */
+    --secondary-color: #9cafb7; /* Sage Green */
+  }
+
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+  .text-primary {
+    color: var(--primary-color);
+  }
+
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+}
+
 @layer components {
   .align-element {
     @apply mx-auto max-w-7xl px-8;
