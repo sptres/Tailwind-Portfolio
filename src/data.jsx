@@ -61,7 +61,7 @@ export const projects = [
     url: 'https://github.com/sptres/Pie-Home-Cookbook',
     github: 'https://github.com/sptres/Pie-Home-Cookbook',
     title: 'Pie Home Chef',
-    text: '',
+    text: 'Inspired',
   },
   {
     id: nanoid(),
