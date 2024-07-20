@@ -66,7 +66,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://hips.hearstapps.com/hmg-prod/images/crepes-index-64347419e3c7a.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*',
-    url: 'https://github.com/sptres/-Pie-Chef',
+    url: 'https://main--comfy-rabanadas-8f2f68.netlify.app/',
     github: 'https://github.com/sptres/-Pie-Chef',
     title: 'Pie Chef',
     text: 'Pie Chef is a recipe sharing app where users can post, browse, and save their favorite recipes. Built with React, Tailwind CSS, and Node.js, it offers a responsive design and secure user authentication.',
