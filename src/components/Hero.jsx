@@ -10,7 +10,7 @@ const Hero = () => {
             Shawn <span className="text-orange-500">Park</span>
           </h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Software Developer
+            Full-Stack Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             making life easier one step at a time
